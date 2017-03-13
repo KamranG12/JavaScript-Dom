@@ -2,20 +2,32 @@
     <head>
         <title>accordion</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <button class="accordion">Section 1</button>
+        <div class="whool">
+        <button class="accordion" onclick="accordion1()">
+           <div class="icon left"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+            <p class="left"> Section 1 </p>
+        </button>
         <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-        <button class="accordion">Section 2</button>
+        <button class="accordion" onclick="accordion2()">
+            <div class="icon left"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+            <p class="left"> Section 2 </p>
+            </button>
         <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-        <button class="accordion">Section 3</button>
+        <button class="accordion" onclick="accordion3()">
+            <div class="icon left"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+            <p class="left"> Section 3 </p>
+            </button>
         <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
+        </div>
     </body>
     <script src="script.js"></script>
 </html>
